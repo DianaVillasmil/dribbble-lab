@@ -46,21 +46,38 @@
 		<ul>
 			<li><a href="#valor">Shots</a></li>
 			<li><a href="#personas">Followers</a></li>
-			<li><a href="#prensa">More</a></li> <select name="" id="more"></select>
+			<li>
+				<div class="dropdown">
+				  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    Dropdown
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				    <li><a href="#" class="listed">Listed<span>21</span></a></li>
+				    <li><a href="#" class="following">Following</a></li>
+				    <li><a href="#" class="buckets">Buckets</a></li>
+				    <li><a href="#" class="likes">Likes</a></li>
+				    <li><a href="#" class="tags">Tags<span>83</span></a></li>
+				  </ul>
+				</div>
+			</li>
 		</ul>
 		<select name="recent-shots" id="recent-shots"></select>		
 	</section>	
+
+
+	
+
+
 	<section id="third-section" >
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 col-xs-12">
-					<div>
-						logo
+					<div id="logo">
+						<!-- AQUI VA IMAGEN PERFIL -->
 					</div>
-					<div>
-						eduardo <br>
-						portugal <br>
-						user interface
+					<div id="info">
+						<!-- AQUI VA INFO USUARIO -->
 					</div>
 					<div>
 					<button class="mail"><i class="fa fa-envelope" aria-hidden="true"></i> Hire Me</button>
@@ -68,7 +85,7 @@
 					<select class="follow"><i class="fa fa-cog" aria-hidden="true"></i></select>
 					</div>
 					<div>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
+					<i class="fa fa-twitter" aria-hidden="true"><!-- AQUI VA EL LINK REAL --></i>
 					<i class="fa fa-facebook-official" aria-hidden="true"></i>
 					<i class="fa fa-instagram" aria-hidden="true"></i>
 					<i class="fa fa-github" aria-hidden="true"></i>
@@ -83,5 +100,9 @@
 			</div>
 		</div>
 	</section>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
