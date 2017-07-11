@@ -1,1 +1,23 @@
-/* Acá van tus estilos */
+/* Acá van tus estilos 
+font-family: 'Roboto', sans-serif;
+*/
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+
+/* add padding  */
+.right-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.form-control {
+	width: 25% !important;
+}
