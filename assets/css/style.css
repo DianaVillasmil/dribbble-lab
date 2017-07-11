@@ -112,7 +112,7 @@ body{
 .uno a span{
 	position: absolute;
     right: 20px;
-    color: #bbbbbb;
+    color: #7A7A7A;
 }
 #valor, #personas{
 	font-size: 15px;
@@ -123,9 +123,9 @@ body{
 	padding-left: 5px;
 }
 .fa-chevron-down{
-	color: #bbbbbb;
+	color: #7A7A7A;
 }
-.dos .btn-default{
+.dos .dropdown .btn{
 	padding-right: 20px;
 }
 .dos .fa{
@@ -136,4 +136,98 @@ body{
 }
 .fa-caret-up{
 	padding: 0 5px;
+}
+
+/*ASIDE*/
+#third-section{
+	background-color: #f4f4f4;
+	height: 100vh;
+	padding-top: 30px;
+}
+.user-perfil{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.centrado{
+	text-align: center;
+	border-bottom: 0.5px solid rgba(175,175,175,0.5215686274509804);
+}
+#logo img{
+	border-radius: 100%;
+	width: 100px;
+	margin-top: 30px;
+}
+#info{
+	margin-top: 10px;
+}
+#info h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#info span{
+	font-size: 15px;
+	color: #7A7A7A;
+}
+#info p{
+	margin-top: 15px;
+	font-size: 15px;
+}
+.botones{
+	margin: 20px 0;
+	width: 100%;
+}
+.mail{
+	border-radius: 5px;
+	padding: 8px 10px;
+	border: none;
+	background-color: #7bbb5e;
+	color: #fff;
+	font-size: 15px;
+}
+.follow{
+	border-radius: 5px;
+	padding: 8px 10px;
+	border: none;
+	font-size: 15px;
+}
+.drop-user-perfil{
+	display: inline-block;
+}
+.dropdown .btn{
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+.skills{
+	padding: 30px;
+	height: 120px;
+	border-bottom: 0.5px solid rgba(175,175,175,0.5215686274509804);
+
+}
+.skills h3, .redes h3{
+	font-weight: bold;
+	color: #7A7A7A;
+	margin-bottom: 10px;
+}
+.skills ul li{
+	display: inline-block;
+	padding: 5px;
+	border: 0.5px solid rgba(175,175,175,0.9529411764705882);
+	border-radius: 5px;
+	font-size: 14px;
+}
+.redes{
+	padding: 30px;
+}
+.redes ul li{
+	margin: 10px 0;
+}
+.redes ul li i{
+	color: #7A7A7A;
+	font-size: 25px;
+	margin-right: 10px;
+}
+.redes ul li:hover{
+	color: #7A7A7A;
 }
