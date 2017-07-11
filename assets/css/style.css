@@ -54,6 +54,11 @@ table {
 body{
 	font-family: 'Roboto', sans-serif;
 }
+/*NAV*/
+#first-section .navbar{
+	padding: 0 50px;
+	background-color: #333333;
+}
 .inner-addon {
   position: relative;
 }
@@ -61,7 +66,7 @@ body{
 /* style glyph */
 .inner-addon .glyphicon {
   position: absolute;
-  padding: 10px;
+  padding: 7px;
   pointer-events: none;
 }
 
@@ -69,10 +74,66 @@ body{
 .right-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
 
-.form-control {
-	width: 25% !important;
+.nav-drib li{
+	margin: 0 5px;
 }
 .nav img{
 	width: 100px;
 	padding: 12px 0;
+	margin-right: 20px;
+}
+
+#second-section{
+	margin-top: 50px;
+	text-align: right;
+	padding: 10px 60px;
+	background-color: #fbfbfb;
+	border-bottom: 0.5px solid rgba(175,175,175,0.5215686274509804);
+}
+
+#second-section ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.input-search{
+	margin-top: 10px;
+	width: 250px;
+	color: #bbbbbb;
+}
+
+/*SECCION 2*/
+.uno .btn-default{
+	border: none;
+}
+.dropdown-menu li a{
+	width: 100px;
+	color: #333333;
+}
+.uno a span{
+	position: absolute;
+    right: 20px;
+    color: #bbbbbb;
+}
+#valor, #personas{
+	font-size: 15px;
+	color: black;
+}
+#valor span, #personas span{
+	color: #bbbbbb;
+	padding-left: 5px;
+}
+.fa-chevron-down{
+	color: #bbbbbb;
+}
+.dos .btn-default{
+	padding-right: 20px;
+}
+.dos .fa{
+	position: absolute;
+}
+.fa-caret-down{
+	padding: 8px 5px;
+}
+.fa-caret-up{
+	padding: 0 5px;
 }
