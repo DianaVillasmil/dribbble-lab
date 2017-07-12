@@ -54,10 +54,14 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 /*NAV*/
-#first-section .navbar{
+#first-section .navbar-collapse{
 	padding: 0 50px;
+}
+
+#first-section .navbar {
 	background-color: #333333;
 }
+
 .inner-addon {
   position: relative;
 }
@@ -76,10 +80,16 @@ body{
 .nav-drib li{
 	margin: 0 5px;
 }
-.nav img{
+.navbar img{
 	width: 100px;
 	padding: 12px 0;
 	margin-right: 20px;
+}
+
+.navbar-header img {
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
 }
 
 #second-section{
@@ -103,6 +113,7 @@ body{
 /*SECCION 2*/
 .uno .btn-default{
 	border: none;
+	background-color: transparent;
 }
 .dropdown-menu li a{
 	width: 100px;
@@ -140,8 +151,9 @@ body{
 /*ASIDE*/
 #third-section{
 	background-color: #f4f4f4;
-	height: 100vh;
+	/*height: 100vh;*/
 	padding-top: 30px;
+	font-size: 12px !important; 
 }
 .user-perfil{
 	background-color: #fff;
@@ -277,11 +289,31 @@ footer .row:last-child .col-xs-12 i{
 	width: 100%;
 }
 
-.pad20 {
-	padding: 20px;
+.pad10 {
+	padding: 10px;
+}
+
+.thumbnail .caption {
+	text-align: right;
+	padding: 9px 0;
+	font-size: .8em;
 }
 
 ul i {
 	color: #7A7A7A;
 	font-size: 12px !important;
+}
+
+.navbar-toggle {
+	float: left;
+}
+
+#dribbble-shots li.list-group-item {
+	padding: 0;
+	background-color: transparent;
+}
+
+#dribbble-shots li.list-group-item .thumbnail {
+	margin: 0;
+	border: none;
 }
