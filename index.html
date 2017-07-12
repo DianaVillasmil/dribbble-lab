@@ -13,7 +13,6 @@
 <body>
 	<section id="first-section">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -26,7 +25,7 @@
 					<ul class="nav navbar-nav navbar-left">
 						<img src="assets/dribbble/logo-footer-hd.png">
 					</ul>
-					<ul class="nav navbar-nav navbar-left">
+					<ul class="nav navbar-nav navbar-left nav-drib">
 						<li><a href="#valor">Shots</a></li>
 						<li><a href="#personas">Designers</a></li>
 						<li><a href="#prensa">Blog</a></li>
@@ -34,24 +33,59 @@
 						<li><a href="#menu">Meetups</a></li>
 						<li><a href="#menu">Jobs</a></li>
 					</ul>
-					<div class="inner-addon right-addon">
-				    	<i class="glyphicon glyphicon-search"></i>
-				     	<input type="text" class="form-control" placeholder="Search"/>
-			    	</div>
+					<div class="input-search navbar-right">
+						<div class="inner-addon right-addon">
+					    	<i class="glyphicon glyphicon-search"></i>
+					     	<input type="text" class="form-control" placeholder="Search"/>
+				    </div>
+			    </div>
 				</div>		
-			</div>
 		</nav>
 	</section>
 	<section id="second-section">
-		<ul>
-			<li><a href="#valor">Shots</a></li>
-			<li><a href="#personas">Followers</a></li>
-			<li><a href="#prensa">More</a></li> <select name="" id="more"></select>
-		</ul>
-		<select name="recent-shots" id="recent-shots"></select>		
+		<div class="contaiener">
+		 <div class="row">
+		 	<div class="col-lg-7 col-md-7">
+			  <ul>
+						<li><a href="#valor" id="valor">Shots</a></li>
+						<li><a href="#personas" id="personas">Followers</a></li>
+						<li>
+							<div class="dropdown uno">
+							  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							    More
+							    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+							  </button>
+							  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							    <li><a href="#" class="listed">Listed<span>21</span></a></li>
+							    <li><a href="#" class="following">Following</a></li>
+							    <li><a href="#" class="buckets">Buckets</a></li>
+							    <li><a href="#" class="likes">Likes</a></li>
+							    <li><a href="#" class="tags">Tags<span>83</span></a></li>
+							  </ul>
+							</div>
+						</li>
+					</ul>					
+			</div>
+			<div class="col-lg-5 col-md-5	dos">
+					<div class="dropdown">
+							  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							    Recent Shots
+							    <i class="fa fa-caret-up" aria-hidden="true"></i>
+							    <i class="fa fa-caret-down" aria-hidden="true"></i>
+							  </button>
+					</div>
+			</div>
+			</div>
+		</div>	
 	</section>	
+
+
+	
+
+
 	<section id="third-section" >
 		<div class="container">
+<<<<<<< HEAD
 			<div class="row col-md-6 col-xs-12">
 				<div class="col-xs-12">
 
@@ -75,6 +109,55 @@
 					<i class="fa fa-linkedin-square" aria-hidden="true"></i>
 					<i class="fa fa-vimeo-square" aria-hidden="true"></i>
 				</div>
+=======
+			<div class="row">
+				<div class="col-md-4 col-xs-12 user-perfil z-depth-1">
+					<div class="centrado">
+						<div id="logo">
+							<!--  <img src="https://cdn.dribbble.com/users/1972/avatars/normal/c89363ccc308cf0006aed7f5907c2a97.png?1432309350" alt="placeholder+image"> -->
+							<!-- AQUI VA IMAGEN PERFIL -->
+						</div>
+						<div id="info">
+							<!-- <h3>Eduardo Santos</h3>
+							<span>Portugal</span>
+							<p>User Interface Designer</p> -->
+							<!-- AQUI VA INFO USUARIO -->
+						</div>
+						<div class="botones">
+							<button class="mail drop-user-perfil"><i class="fa fa-envelope" aria-hidden="true"></i> Hire Me</button>
+							<button class="follow drop-user-perfil">Follow</button>
+							<div class="drop-user-perfil">
+								<div class="dropdown">
+								  <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+								  <i class="fa fa-cog" aria-hidden="true"></i>
+								    <span class="caret"></span>
+								  </button>
+								</div>
+						</div>
+						</div>
+					</div>
+					<div class="skills">
+							<h3>SKILLS</h3>
+							<ul>
+								<li>web</li>
+								<li>ui</li>
+								<li>ux</li>
+								<li>mobile</li>
+								<li>app</li>
+							</ul>
+					</div>
+					<div class="redes">
+					<h3>ELSEWHERE</h3>
+						<ul>
+							<li><i class="fa fa-twitter" aria-hidden="true"><!-- AQUI VA EL LINK REAL --></i>Twitter</li>
+							<li><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</li>
+							<li><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</li>
+							<li><i class="fa fa-github" aria-hidden="true"></i>Github</li>
+							<li><i class="fa fa-linkedin-square" aria-hidden="true"></i>LinkedIn</li>
+							<li><i class="fa fa-vimeo-square" aria-hidden="true"></i>Vimeo</li>
+						</ul>
+					</div>
+>>>>>>> 4bd18e310190587c5cd8a67a8ec6384cc6dd25e6
 				</div>
 			</div>
 			</div>
@@ -92,5 +175,10 @@
 				</div>
 		</div>
 	</section>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
