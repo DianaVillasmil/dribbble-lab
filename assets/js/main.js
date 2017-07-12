@@ -9,4 +9,15 @@ $(document).ready(function(){
 			$("#dribbble-shots").append("<li>No shots.</li>");
 		}
 	});
+
+	var html = [];
+  
+	$.function(project) {
+    html.push('<li><a href="' + project.user.html_url + '/projects/' + project.id + '" target="_blank">');
+  	html.push('<b>' + project.name + ': </b> [' + project.shots_count + ']</a>');
+    html.push(' <i>by ' + project.user.username + '</i></li>');
+  };
+  
+  $('#dribbble-shots').html(html.join(''));
 });
+
