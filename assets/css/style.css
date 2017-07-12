@@ -231,3 +231,44 @@ body{
 .redes ul li:hover{
 	color: #7A7A7A;
 }
+/*FOOTER*/
+footer{
+	padding: 40px 60px 20px;
+	background-color: #fbfbfb;
+	border-top: 0.5px solid rgba(175,175,175,0.5215686274509804);
+	color: #9B9B9B;
+	line-height: 25px;
+
+}
+footer .col-md-12 img{
+	width: 100px;
+	margin-bottom: 10px;
+}
+footer h3{
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+footer .col-md-3:nth-child(2) img{
+	width: 55px;
+}
+footer .col-md-3:nth-child(3) img{
+	width: 35px;
+	float: left;
+}
+footer .col-md-3:nth-child(4) img{
+	padding: 10px;
+	border: 1px solid rgba(175,175,175,0.5215686274509804) ;
+}
+footer h4{
+	color: #094DEB;
+	font-weight: bold;
+}
+footer .row:last-child{
+	margin: 20px 0;
+}
+footer .row:last-child .col-xs-12 i{
+	font-size: 30px;
+	padding: 0 5px;
+}
