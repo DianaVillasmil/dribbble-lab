@@ -25,11 +25,7 @@ $(document).ready( function(){
 		$(".likes").append("<span>" + likes + "</span>");
 	}
 
-	$.ajax({
-		url: 'https://api.dribbble.com/v1/users/eduardo/?access_token=96386721d94da7847ddfd3769b2c4e8690cdd02e001f29eff3c9b20728bab3e4',
-		type: 'GET',
-		dataType: 'json',
-	})
+	$.getJSON('https://api.dribbble.com/v1/users/eduardo/?access_token=96386721d94da7847ddfd3769b2c4e8690cdd02e001f29eff3c9b20728bab3e4')
 	.done(function(eduardo) {
 		console.log("success");
 		perfil(eduardo)
