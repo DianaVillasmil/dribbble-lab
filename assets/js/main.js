@@ -10,7 +10,17 @@ $(document).ready(function(){
 		}
 	});
 
-	var html = [];
+	var infoHover = function(data) {
+		data.forEach(function(element){
+			var titlePro = element.title;
+			var description = element.description;
+			var fecha = element.updated_at;
+			$("#dribbble-shots").append('<li><a href="' + element.user.html_url + '/projects/' + element.id + '" target="_blank">')
+		})
+	}
+
+
+	/*var html = [];
   
 	$.function(project) {
     html.push('<li><a href="' + project.user.html_url + '/projects/' + project.id + '" target="_blank">');
@@ -18,6 +28,6 @@ $(document).ready(function(){
     html.push(' <i>by ' + project.user.username + '</i></li>');
   };
   
-  $('#dribbble-shots').html(html.join(''));
+  $('#dribbble-shots').html(html.join(''));*/
 });
 
